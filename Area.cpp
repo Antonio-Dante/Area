@@ -3,14 +3,15 @@
 
 int main()
 {
-	//Area de un circulo
+	//Area de un triangulo
 
-	float radio, pi, area;
-	pi = 3.1416;
+	float altura,base,area;
 
-	printf("Radio:");
-	scanf_s("%f", &radio);
+	printf("base:");
+	scanf_s("%f", &base);
+	printf("altura:");
+	scanf_s("%f", &altura);
 
-	area = pi * (radio*radio);
-	printf("El area del circulo es:%f", area);
+	area = base*altura/2;
+	printf("El area del triangulo es:%f", area);
 }
